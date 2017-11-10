@@ -1,6 +1,13 @@
 .Option-bar {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     color: black;
 
+}
+
+.Option-inner {
+    color: inherit;
+    text-decoration: none;
+    
 }

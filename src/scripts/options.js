@@ -7,15 +7,15 @@ export default class OptionsBox extends Component {
         return (
             <div>
                 <p>Below is where the table should be</p>
-                <table style = {{"align":"center","text-align": "center"}} >
-                    <tr>
-                        <td><a href="Home" data-id="rawr">Home</a></td>
-                        <td><a href="API" data-id="rawr" >API</a></td>
-                        <td><a href="About" data-id="rawr" >About</a></td>       
+                <table className="Option-bar" >
+                    <tr >
+                        <td><a className="Option-inner" href="Home" data-id="rawr">Home</a></td>
+                        <td><a className="Option-inner" href="API" data-id="rawr" >API</a></td>
+                        <td><a className="Option-inner" href="About" data-id="rawr" >About</a></td>
                     </tr>
                 </table>
                 <div >
-                <a href="Home" data-id="rawr">Home</a>
+                    <a href="Home" data-id="rawr">Home</a>
                 </div>
 
             </div>
