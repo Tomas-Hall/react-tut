@@ -11,8 +11,8 @@ class DataDisplay extends Component {
             },
             {
                 id: 1,
-                name: "John",
-                age: -10
+                name: "XxhackermanxX",
+                age: 1337
             },
             {
                 id: 2,
