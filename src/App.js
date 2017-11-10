@@ -3,7 +3,7 @@ import logo from './seal.jpg';
 import './App.css';
 import Test from './scripts/test.js';
 import OptionsBox from './scripts/options.js';
-
+import DataDisplay from './data/dataDisplay.js';
 class App extends Component {
   render() {
     return (
@@ -17,6 +17,7 @@ class App extends Component {
         </p>  
         <OptionsBox />
         <Test />
+        <DataDisplay />
       </div>
       
     );
